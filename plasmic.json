@@ -1,0 +1,137 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "cQ6n6YybaMq43XmcPKMuLG",
+      "projectApiToken": "LycifJE9aIOG3PcTgZ3SAZG6amFul9dwACMC3mOKtYJPyBE9Oq1tMXvnuvYW9PudrnS7sP1DWTGTtS6NyFGdUA",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "2jCPJSUaWgtB",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "cQ6n6YybaMq43XmcPKMuLG",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "jsIjDnzjwC",
+          "name": "AboutSection",
+          "type": "managed",
+          "projectId": "cQ6n6YybaMq43XmcPKMuLG",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAboutSection.tsx",
+          "importSpec": {
+            "modulePath": "AboutSection.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAboutSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "xBDTd9Kni",
+          "name": "image",
+          "filePath": "../public/plasmic/blank_project/images/image.png"
+        },
+        {
+          "id": "9meAa7Eiv",
+          "name": "HeaderContainerSection/Desktop",
+          "filePath": "../public/plasmic/blank_project/images/headerContainerSectionDesktop.jpeg"
+        },
+        {
+          "id": "gxuT04VhBo",
+          "name": "Fixed-aspect-ratio cover + Elements on top",
+          "filePath": "../public/plasmic/blank_project/images/fixedAspectRatioCoverElementsOnTop.jpeg"
+        },
+        {
+          "id": "JzuPbhCuRV",
+          "name": "Form",
+          "filePath": "../public/plasmic/blank_project/images/form.jpeg"
+        },
+        {
+          "id": "4h5ycp7IYm",
+          "name": "image 1",
+          "filePath": "../public/plasmic/blank_project/images/image1.png"
+        },
+        {
+          "id": "vr0qpn0ndW",
+          "name": "_Picture",
+          "filePath": "../public/plasmic/blank_project/images/picture.png"
+        },
+        {
+          "id": "c9FKgb6U9V",
+          "name": "Group",
+          "filePath": "../public/plasmic/blank_project/images/group.svg"
+        },
+        {
+          "id": "jU5h3g72Vt",
+          "name": "Icon",
+          "filePath": "../public/plasmic/blank_project/images/icon.svg"
+        },
+        {
+          "id": "m4Y4Z6f20p",
+          "name": "Icon 2",
+          "filePath": "../public/plasmic/blank_project/images/icon2.svg"
+        },
+        {
+          "id": "6fBxpR3utF",
+          "name": "Icon 3",
+          "filePath": "../public/plasmic/blank_project/images/icon3.svg"
+        },
+        {
+          "id": "6_8Opj5RJ3",
+          "name": "Icon 4",
+          "filePath": "../public/plasmic/blank_project/images/icon4.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "IzrLmmZRWgssi",
+        "name": "Screen",
+        "projectId": "cQ6n6YybaMq43XmcPKMuLG",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.178",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
+}

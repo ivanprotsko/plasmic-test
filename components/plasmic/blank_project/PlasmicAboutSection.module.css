@@ -1,0 +1,72 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.aboutTikTokSection {
+  width: 1440px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 135px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .aboutTikTokSection {
+    display: none;
+  }
+}
+.surface3 {
+  flex-direction: row;
+  height: 289px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.surface3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: calc(0px - 19px);
+  width: calc(100% + 19px);
+}
+.surface3 > :global(.__wab_flex-container) > *,
+.surface3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.surface3 > :global(.__wab_flex-container) > picture > img,
+.surface3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 19px;
+}
+.title {
+  opacity: 0.899;
+  display: block;
+  font-size: 32px;
+  font-family: "Space Mono";
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 277px;
+  flex-shrink: 0;
+}
+.text {
+  opacity: 0.8;
+  display: block;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  width: 264px;
+  flex-shrink: 0;
+}

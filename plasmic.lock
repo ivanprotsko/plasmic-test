@@ -1,0 +1,99 @@
+{
+  "projects": [
+    {
+      "projectId": "cQ6n6YybaMq43XmcPKMuLG",
+      "version": "latest",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "IzrLmmZRWgssi",
+          "checksum": "dbb7834843234cb7ef1962c0a4e598c8"
+        },
+        {
+          "assetId": "cQ6n6YybaMq43XmcPKMuLG",
+          "type": "projectCss",
+          "checksum": "be5703d4dbc058b92867ee1d2a13a84b"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "2jCPJSUaWgtB",
+          "checksum": "4a997c05244fc774245323999113d03c"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "2jCPJSUaWgtB",
+          "checksum": "4a997c05244fc774245323999113d03c"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "jsIjDnzjwC",
+          "checksum": "629eec06f2cd0313af43151d803264e5"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "jsIjDnzjwC",
+          "checksum": "629eec06f2cd0313af43151d803264e5"
+        },
+        {
+          "type": "image",
+          "assetId": "xBDTd9Kni",
+          "checksum": "833ee70cd619b741a00aedc79ddfdbda"
+        },
+        {
+          "type": "image",
+          "assetId": "9meAa7Eiv",
+          "checksum": "c75417661cc3db79f754a750a1b0e395"
+        },
+        {
+          "type": "image",
+          "assetId": "gxuT04VhBo",
+          "checksum": "175d225b07827684d5edca7bebc99796"
+        },
+        {
+          "type": "image",
+          "assetId": "JzuPbhCuRV",
+          "checksum": "c242d78cc7d9d85f06f95ef805a2fa02"
+        },
+        {
+          "type": "image",
+          "assetId": "4h5ycp7IYm",
+          "checksum": "ae9d18a31dfe8f38b4507ed73d1c0175"
+        },
+        {
+          "type": "image",
+          "assetId": "vr0qpn0ndW",
+          "checksum": "2a0751d46fb7afef6f67d3303418955e"
+        },
+        {
+          "type": "image",
+          "assetId": "c9FKgb6U9V",
+          "checksum": "806ce10154708231601e004dc87dda6d"
+        },
+        {
+          "type": "image",
+          "assetId": "jU5h3g72Vt",
+          "checksum": "f8b6fee824dc9422722e962088c82bc0"
+        },
+        {
+          "type": "image",
+          "assetId": "m4Y4Z6f20p",
+          "checksum": "a5112775455724eaae7f41757cd8264b"
+        },
+        {
+          "type": "image",
+          "assetId": "6fBxpR3utF",
+          "checksum": "00376633d81f001e533f4d7aa91eea63"
+        },
+        {
+          "type": "image",
+          "assetId": "6_8Opj5RJ3",
+          "checksum": "179b9dbfae82f50caea0399a198166a8"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    }
+  ],
+  "cliVersion": "0.1.178"
+}
