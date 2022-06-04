@@ -53,6 +53,19 @@
           "cssFilePath": "plasmic/blank_project/PlasmicAboutSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "mkxFo3p1jZI",
+          "name": "FeatureListSection",
+          "type": "managed",
+          "projectId": "cQ6n6YybaMq43XmcPKMuLG",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicFeatureListSection.tsx",
+          "importSpec": {
+            "modulePath": "FeatureListSection.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicFeatureListSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [],
