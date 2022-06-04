@@ -67,14 +67,8 @@ export type PlasmicHomepage__OverridesType = {
   content?: p.Flex<"div">;
   content2?: p.Flex<"div">;
   picture?: p.Flex<"div">;
-  pic?: p.Flex<"div">;
-  fixedAspectRatioCoverElementsOnTop?: p.Flex<"div">;
-  topElements?: p.Flex<"div">;
-  centerElements?: p.Flex<"div">;
-  bottomElements?: p.Flex<"div">;
-  aspectRatio?: p.Flex<"div">;
-  aspectRatioKeeperAdditionally45RotatedAutoLayout?: p.Flex<"div">;
-  aspectRatioKeeperRotatedAutoLayout?: p.Flex<"div">;
+  imageContainer?: p.Flex<"div">;
+  image?: p.Flex<"div">;
   aboutTikTokSection?: p.Flex<"div">;
   surface3?: p.Flex<"div">;
   title?: p.Flex<"div">;
@@ -322,118 +316,20 @@ function PlasmicHomepage__RenderFunc(props: {
                       ) : null}
                     </p.Stack>
                   </p.Stack>
-                </div>
-              </div>
 
-              <div
-                data-plasmic-name={"pic"}
-                data-plasmic-override={overrides.pic}
-                className={classNames(projectcss.all, sty.pic)}
-              >
-                <div
-                  data-plasmic-name={"fixedAspectRatioCoverElementsOnTop"}
-                  data-plasmic-override={
-                    overrides.fixedAspectRatioCoverElementsOnTop
-                  }
-                  className={classNames(
-                    projectcss.all,
-                    sty.fixedAspectRatioCoverElementsOnTop
-                  )}
-                >
-                  {false ? (
+                  {true ? (
                     <div
-                      data-plasmic-name={"topElements"}
-                      data-plasmic-override={overrides.topElements}
-                      className={classNames(projectcss.all, sty.topElements)}
+                      data-plasmic-name={"imageContainer"}
+                      data-plasmic-override={overrides.imageContainer}
+                      className={classNames(projectcss.all, sty.imageContainer)}
                     >
                       <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__dlGh6
-                        )}
-                      >
-                        {"Swap me with your AL Component"}
-                      </div>
+                        data-plasmic-name={"image"}
+                        data-plasmic-override={overrides.image}
+                        className={classNames(projectcss.all, sty.image)}
+                      />
                     </div>
                   ) : null}
-                  {false ? (
-                    <div
-                      data-plasmic-name={"centerElements"}
-                      data-plasmic-override={overrides.centerElements}
-                      className={classNames(projectcss.all, sty.centerElements)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__qLz9V
-                        )}
-                      >
-                        {"Swap me with your AL Component"}
-                      </div>
-                    </div>
-                  ) : null}
-                  {false ? (
-                    <div
-                      data-plasmic-name={"bottomElements"}
-                      data-plasmic-override={overrides.bottomElements}
-                      className={classNames(projectcss.all, sty.bottomElements)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__yJueG
-                        )}
-                      >
-                        {"Swap me with your AL Component"}
-                      </div>
-                    </div>
-                  ) : null}
-
-                  <div
-                    data-plasmic-name={"aspectRatio"}
-                    data-plasmic-override={overrides.aspectRatio}
-                    className={classNames(projectcss.all, sty.aspectRatio)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox___7EXt)}
-                    >
-                      <div
-                        data-plasmic-name={
-                          "aspectRatioKeeperAdditionally45RotatedAutoLayout"
-                        }
-                        data-plasmic-override={
-                          overrides.aspectRatioKeeperAdditionally45RotatedAutoLayout
-                        }
-                        className={classNames(
-                          projectcss.all,
-                          sty.aspectRatioKeeperAdditionally45RotatedAutoLayout
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__trBya
-                          )}
-                        >
-                          <div
-                            data-plasmic-name={
-                              "aspectRatioKeeperRotatedAutoLayout"
-                            }
-                            data-plasmic-override={
-                              overrides.aspectRatioKeeperRotatedAutoLayout
-                            }
-                            className={classNames(
-                              projectcss.all,
-                              sty.aspectRatioKeeperRotatedAutoLayout
-                            )}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -1178,14 +1074,8 @@ const PlasmicDescendants = {
     "content",
     "content2",
     "picture",
-    "pic",
-    "fixedAspectRatioCoverElementsOnTop",
-    "topElements",
-    "centerElements",
-    "bottomElements",
-    "aspectRatio",
-    "aspectRatioKeeperAdditionally45RotatedAutoLayout",
-    "aspectRatioKeeperRotatedAutoLayout",
+    "imageContainer",
+    "image",
     "aboutTikTokSection",
     "surface3",
     "title",
@@ -1266,14 +1156,8 @@ const PlasmicDescendants = {
     "content",
     "content2",
     "picture",
-    "pic",
-    "fixedAspectRatioCoverElementsOnTop",
-    "topElements",
-    "centerElements",
-    "bottomElements",
-    "aspectRatio",
-    "aspectRatioKeeperAdditionally45RotatedAutoLayout",
-    "aspectRatioKeeperRotatedAutoLayout",
+    "imageContainer",
+    "image",
     "aboutTikTokSection",
     "surface3",
     "title",
@@ -1353,14 +1237,8 @@ const PlasmicDescendants = {
     "content",
     "content2",
     "picture",
-    "pic",
-    "fixedAspectRatioCoverElementsOnTop",
-    "topElements",
-    "centerElements",
-    "bottomElements",
-    "aspectRatio",
-    "aspectRatioKeeperAdditionally45RotatedAutoLayout",
-    "aspectRatioKeeperRotatedAutoLayout"
+    "imageContainer",
+    "image"
   ],
   header: ["header", "surface", "image1", "links", "rectangle8"],
   surface: ["surface", "image1", "links"],
@@ -1374,46 +1252,27 @@ const PlasmicDescendants = {
     "list",
     "content",
     "content2",
-    "picture"
+    "picture",
+    "imageContainer",
+    "image"
   ],
-  surface2: ["surface2", "block", "list", "content", "content2", "picture"],
+  surface2: [
+    "surface2",
+    "block",
+    "list",
+    "content",
+    "content2",
+    "picture",
+    "imageContainer",
+    "image"
+  ],
   block: ["block", "list", "content", "content2", "picture"],
   list: ["list", "content", "content2", "picture"],
   content: ["content", "content2"],
   content2: ["content2"],
   picture: ["picture"],
-  pic: [
-    "pic",
-    "fixedAspectRatioCoverElementsOnTop",
-    "topElements",
-    "centerElements",
-    "bottomElements",
-    "aspectRatio",
-    "aspectRatioKeeperAdditionally45RotatedAutoLayout",
-    "aspectRatioKeeperRotatedAutoLayout"
-  ],
-  fixedAspectRatioCoverElementsOnTop: [
-    "fixedAspectRatioCoverElementsOnTop",
-    "topElements",
-    "centerElements",
-    "bottomElements",
-    "aspectRatio",
-    "aspectRatioKeeperAdditionally45RotatedAutoLayout",
-    "aspectRatioKeeperRotatedAutoLayout"
-  ],
-  topElements: ["topElements"],
-  centerElements: ["centerElements"],
-  bottomElements: ["bottomElements"],
-  aspectRatio: [
-    "aspectRatio",
-    "aspectRatioKeeperAdditionally45RotatedAutoLayout",
-    "aspectRatioKeeperRotatedAutoLayout"
-  ],
-  aspectRatioKeeperAdditionally45RotatedAutoLayout: [
-    "aspectRatioKeeperAdditionally45RotatedAutoLayout",
-    "aspectRatioKeeperRotatedAutoLayout"
-  ],
-  aspectRatioKeeperRotatedAutoLayout: ["aspectRatioKeeperRotatedAutoLayout"],
+  imageContainer: ["imageContainer", "image"],
+  image: ["image"],
   aboutTikTokSection: ["aboutTikTokSection", "surface3", "title"],
   surface3: ["surface3", "title"],
   title: ["title"],
@@ -1799,14 +1658,8 @@ type NodeDefaultElementType = {
   content: "div";
   content2: "div";
   picture: "div";
-  pic: "div";
-  fixedAspectRatioCoverElementsOnTop: "div";
-  topElements: "div";
-  centerElements: "div";
-  bottomElements: "div";
-  aspectRatio: "div";
-  aspectRatioKeeperAdditionally45RotatedAutoLayout: "div";
-  aspectRatioKeeperRotatedAutoLayout: "div";
+  imageContainer: "div";
+  image: "div";
   aboutTikTokSection: "div";
   surface3: "div";
   title: "div";
@@ -1946,20 +1799,8 @@ export const PlasmicHomepage = Object.assign(
     content: makeNodeComponent("content"),
     content2: makeNodeComponent("content2"),
     picture: makeNodeComponent("picture"),
-    pic: makeNodeComponent("pic"),
-    fixedAspectRatioCoverElementsOnTop: makeNodeComponent(
-      "fixedAspectRatioCoverElementsOnTop"
-    ),
-    topElements: makeNodeComponent("topElements"),
-    centerElements: makeNodeComponent("centerElements"),
-    bottomElements: makeNodeComponent("bottomElements"),
-    aspectRatio: makeNodeComponent("aspectRatio"),
-    aspectRatioKeeperAdditionally45RotatedAutoLayout: makeNodeComponent(
-      "aspectRatioKeeperAdditionally45RotatedAutoLayout"
-    ),
-    aspectRatioKeeperRotatedAutoLayout: makeNodeComponent(
-      "aspectRatioKeeperRotatedAutoLayout"
-    ),
+    imageContainer: makeNodeComponent("imageContainer"),
+    image: makeNodeComponent("image"),
     aboutTikTokSection: makeNodeComponent("aboutTikTokSection"),
     surface3: makeNodeComponent("surface3"),
     title: makeNodeComponent("title"),
